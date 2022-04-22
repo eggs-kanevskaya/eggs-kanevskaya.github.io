@@ -1,0 +1,122 @@
+﻿.large-title {
+    width: auto;
+    margin: auto;
+    position: relative;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.large-title span {
+    color: var(--white-color);
+}
+
+.title-shadow:after {
+    content: "";
+    position: absolute;
+    bottom: -25%;
+    left: 0;
+    right: 0;
+    height: 10px;
+    opacity: .3;
+    filter: blur(5px);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, var(--yellow-color) 100%);
+}
+
+.title-circles-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.title-circles {
+    position: relative;
+}
+
+.title-circle-1 {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 100%;
+    background: var(--white-color);
+}
+
+.title-circle-2 {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    border-radius: 100%;
+    background: var(--white-color);
+}
+
+.title-circle-3 {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    border-radius: 100%;
+    background: var(--white-color);
+}
+
+.large-sub-title {
+    width: auto;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.text-title {
+    width: auto;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text-title:first-child {
+    margin-top: 2em;
+}
+
+.large-title-button {
+    margin: 2em auto 0;
+}
+
+.big-title {
+    width: auto;
+    position: relative;
+    font-size: 80px;
+    font-weight: 700;
+    color: var(--yellow-color);
+}
+
+.big-title:after {
+    height: 3px;
+    width: 30%;
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: calc(var(--bs-gutter-x) * .5);
+    border-radius: 100px;
+    background-color: var(--yellow-color);
+}
+
+.big-title-after-center.big-title:after{
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.big-sub-title {
+    width: auto;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--dark-color);
+    margin-top: 1em;
+}
+
+.big-text-title {
+    margin-top: 2em;
+}

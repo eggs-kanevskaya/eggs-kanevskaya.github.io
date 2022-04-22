@@ -1,0 +1,38 @@
+﻿.button{
+    width: auto;
+    background-color: var(--dark-color);
+    color: var(--yellow-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 15px 50px;
+    transition: color .2s ease, box-shadow .2s ease;
+    box-shadow: 4px 4px 11px var(--dark-color);
+}
+
+.button:hover,
+.button:focus,
+.button:active{
+    color: var(--white-color);
+    box-shadow: 4px 4px 15px var(--dark-color);
+}
+
+.link{
+    width: auto;
+    color: var(--dark-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
+.link:hover,
+.button:focus,
+.button:active{
+    color: var(--yellow-color);
+}
+
+.link-egg{
+    margin-top: 1.5em;
+}

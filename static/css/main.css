@@ -1,0 +1,71 @@
+﻿@import "./bootstrap/bootstrap5.min.css";
+@import "../icons/bootstrap-icons-1.7.0/bootstrap-icons.css";
+@import "./background.css";
+@import "./font.css";
+@import "./titles.css";
+@import "./buttons.css";
+@import "./img.css";
+@import "./carousel.css";
+@import "./pricingTable.css";
+@import "./settings.css";
+
+body{
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+}
+
+:root{
+    --yellow-color: #fbc61e;
+    --white-color: #ffffff;
+    --dark-white-color: #f7f6f2;
+    --dark-color: rgb(31, 38, 57);
+}
+
+.text-title-ul{
+    font-size: 20px;
+    margin-left: 2rem;
+}
+
+#benefits p, #benefits ul{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  .text-title{
+    font-size: 15px;
+  }
+  .text-title-ul{
+    font-size: 15px;
+  }
+
+  .big-title{
+    font-size: 50px;
+  }
+
+  .big-sub-title{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .text-title-ul{
+    margin-left: 0;
+  }
+  #benefits p, #benefits ul{
+    font-size: 15px;
+  }
+    .text-title{
+    font-size: 15px;
+  }
+  .text-title-ul{
+    font-size: 15px;
+  }
+
+  .big-title{
+    font-size: 40px;
+  }
+
+  .big-sub-title{
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,65 @@
+﻿/*Exo2*/
+@font-face {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../font/exo/Exo2-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Exo';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../font/exo/Exo2-Italic.ttf") format('truetype');
+}
+
+/*Exo2*/
+@font-face {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("../font/exo/Exo2-SemiBold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Exo';
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: url("../font/exo/Exo2-SemiBoldItalic.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../font/exo/Exo2-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Exo';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../font/exo/Exo2-BoldItalic.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("../font/exo/Exo2-Black.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Exo';
+    font-style: italic;
+    font-weight: 900;
+    font-display: swap;
+    src: url("../font/exo/Exo2-BlackItalic.ttf") format('truetype');
+}
