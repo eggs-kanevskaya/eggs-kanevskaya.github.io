@@ -9,63 +9,76 @@
 @import "./pricingTable.css";
 @import "./settings.css";
 
-body{
+body {
     font-family: "Exo", sans-serif;
     font-weight: 400;
 }
 
-:root{
+:root {
     --yellow-color: #fbc61e;
     --white-color: #ffffff;
     --dark-white-color: #f7f6f2;
     --dark-color: rgb(31, 38, 57);
 }
 
-.text-title-ul{
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+.text-title-ul {
     font-size: 20px;
     margin-left: 2rem;
 }
 
-#benefits p, #benefits ul{
+#benefits p, #benefits ul {
     font-size: 20px;
 }
 
 @media only screen and (max-width: 991px) {
-  .text-title{
-    font-size: 15px;
-  }
-  .text-title-ul{
-    font-size: 15px;
-  }
+    .text-title {
+        font-size: 15px;
+    }
 
-  .big-title{
-    font-size: 50px;
-  }
+    .text-title-ul {
+        font-size: 15px;
+    }
 
-  .big-sub-title{
-    font-size: 20px;
-  }
+    .big-title {
+        font-size: 50px;
+    }
+
+    .big-sub-title {
+        font-size: 20px;
+    }
 }
 
 @media only screen and (max-width: 530px) {
-  .text-title-ul{
-    margin-left: 0;
-  }
-  #benefits p, #benefits ul{
-    font-size: 15px;
-  }
-    .text-title{
-    font-size: 15px;
-  }
-  .text-title-ul{
-    font-size: 15px;
-  }
+    .text-title-ul {
+        margin-left: 0;
+    }
 
-  .big-title{
-    font-size: 40px;
-  }
+    #benefits p, #benefits ul {
+        font-size: 15px;
+    }
 
-  .big-sub-title{
-    font-size: 20px;
-  }
+    .text-title {
+        font-size: 15px;
+    }
+
+    .text-title-ul {
+        font-size: 15px;
+    }
+
+    .big-title {
+        font-size: 40px;
+    }
+
+    .big-sub-title {
+        font-size: 20px;
+    }
 }
