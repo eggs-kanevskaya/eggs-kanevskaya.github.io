@@ -81,4 +81,8 @@ ul {
     .big-sub-title {
         font-size: 20px;
     }
+    
+    .large-title{
+        font-size: 80px;
+    }
 }
